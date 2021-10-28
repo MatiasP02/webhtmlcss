@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding: 0 1% 1% 1%;
+}
+footer {
+    background-color: rgb(18, 4, 102);
+    color: rgb(187, 230, 247);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(2, 2, 85);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(2, 2, 85);
+}
+#home {
+    text-align: center;
+}
+.text-titulo {
+    color: rgb(2, 2, 85);
+    text-align: center;
+    
+}
+.etiqueta {
+    color: crimson;
+    font-size: 34px;
+}
+#enlaces {
+    padding: 0 1% 1% 2%;
+}
+.texto-derecha {
+    text-align: right;
+}
+#tablas p {
+    text-align: center;
+}
+#tablas h2{
+    text-align: center;
+}
+#tablas table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#tdefault th{
+    background-color: rgb(12, 12, 100);
+    color: cyan;
+    font-size: 28px;
+}
+#tdefault td{
+    background-color: cyan;
+    color: rgb(12, 12, 100);
+    font-size: 20px;
+}
+#tcombi th{
+    background-color: rgb(9, 126, 9);
+    color: yellow;
+    font-size: 28px;
+}
+#tcombi td{
+    background-color: yellow;
+    color: rgb(9, 126, 9);
+    font-size: 20px;
+}
+#tparimpar tr:nth-child(odd) td{
+    background-color: rgb(242, 252, 157);
+}
+#tparimpar tr:nth-child(even) td{
+    background-color: rgb(252, 189, 243);
+}
+#tparimpar th{
+    background-color: rgb(86, 7, 88);
+    color: rgb(245, 245, 30);
+    font-size: 28px;
+}
+#thorario table{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+#thorario table, td, th{
+    border: solid 1px rgb(56, 55, 55);
+ }
+#thorario th{
+   color: darkcyan;
+}
+.txt-20 {
+    font-size: 20px;
+}
+.fol {
+    background-color: #FFD231;
+}
+.ende{
+    background-color: #817EC1;
+}
+.prog {
+    background-color: #96DC96;
+}
+.ing {
+    background-color: #EFF0C8;
+}
+.lmsg {
+    background-color: #FE8081;
+}
+.sisi {
+    background-color: #C9A0C8;
+}
+.bdd {
+    background-color: #81FF81;
+}
+#customul li {
+    list-style: square;
+}
+#customul li li {
+    list-style: disc;
+}
+#customul li li li {
+    list-style: circle;
+}
+#customol li {
+    list-style: lower-greek;
+}
+#customol li li {
+    list-style-image: url(../img/corazon16.png);
+}
+#customol li li li {
+    list-style: upper-roman;
+    list-style-image: none;
+}
+#listas dt {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(21, 21, 122);
+}
+.width60 {
+    width: 60%;
+}
+.width40 {
+    width: 40%;
+}
+#multimedia {
+    text-align: center;
+}
