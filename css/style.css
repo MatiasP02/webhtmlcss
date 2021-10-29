@@ -4,7 +4,7 @@ body {
 #container {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 70px rgb(0, 68, 255);
 }
 
 header img {
@@ -35,19 +35,21 @@ nav ul, nav li {
     margin: 0;
 }
 nav li {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(148, 146, 255);
     list-style-type: none;
     text-align: center;
-    color: rgb(47, 47, 48);
+    color: rgb(56, 28, 212);
     font-size: 22px;
-    border: solid 1px rgb(0, 0, 0);
+    border: transparent 1px rgb(56, 28, 212);
     padding: 8px;
     border-radius: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
+    box-shadow: 0 0 5px rgb(39, 18, 158);
+    margin-left: 5px;
 }
 nav ul li:hover {
-    color: rgb(185, 185, 185);
-    background-color: rgb(47, 47, 48);
+    color: rgb(148, 146, 255);
+    background-color: rgb(56, 28, 212);
 }
 a {
     text-decoration: none;
