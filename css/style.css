@@ -21,8 +21,8 @@ nav {
     padding: 0 1% 1% 1%;
 }
 footer {
-    background-color: rgb(18, 4, 102);
-    color: rgb(187, 230, 247);
+    background-color: rgb(56, 28, 212);
+    color: rgb(229, 93, 247);
     font-size: 30px;
     text-align: center;
     padding: 10px;
@@ -35,30 +35,31 @@ nav ul, nav li {
     margin: 0;
 }
 nav li {
+    background-color: rgb(185, 185, 185);
     list-style-type: none;
     text-align: center;
-    color: rgb(2, 2, 85);
+    color: rgb(47, 47, 48);
     font-size: 22px;
-    border: solid 1px rgb(2, 2, 85);
+    border: solid 1px rgb(0, 0, 0);
     padding: 8px;
     border-radius: 10px;
     margin-bottom: 4px;
 }
 nav ul li:hover {
-    color: rgb(195, 216, 248);
-    background-color: rgb(2, 2, 85);
+    color: rgb(185, 185, 185);
+    background-color: rgb(47, 47, 48);
 }
 a {
     text-decoration: none;
 }
 .text-azulo {
-    color: rgb(2, 2, 85);
+    color: rgb(56, 28, 212);
 }
 #home {
     text-align: center;
 }
 .text-titulo {
-    color: rgb(2, 2, 85);
+    color: rgb(56, 28, 212);
     text-align: center;
     
 }
